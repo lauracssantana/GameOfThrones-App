@@ -1,0 +1,40 @@
+.card{
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    margin-bottom: 0.5rem;
+    background-size: cover;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+@media (max-width: 900px){
+    .name{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .name{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}

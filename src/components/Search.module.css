@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5.5rem;
+    margin-right: 3rem;
+
+    font-family: 'Inter', sans-serif;
+}
+
+
+.form input {
+    background: transparent;
+    border: 2px solid #E4A942;
+    padding: .25rem .5rem;
+    color: #E4A942;
+    font-family: 'Inter', sans-serif;
+}
+
+.form input::placeholder{
+    color: #E4A942;
+}
+
+@media (max-width: 500px){
+    .container{
+        margin-top: 0.25rem;
+        margin-right: 1.5rem;
+    }
+
+}
